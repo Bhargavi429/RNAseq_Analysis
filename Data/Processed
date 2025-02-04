@@ -1,1 +1,7 @@
 
+Extract the samples for Control1, Control2, Treated1 and Treated2:
+gunzip *.fastq.gz
+
+Perform Quality control for all the samples(Control1, Control2, Treated1 and Treated2):
+fastqc *.fastq
+
